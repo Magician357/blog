@@ -17,7 +17,7 @@ html="".join(html_split)
 html=minify(html)
 print(html)
 
-with open("actual-website/index.html","w") as f:
+with open("docs/index.html","w") as f:
     f.write(html)
     
-distutils.dir_util.copy_tree("./icons","./actual-website/icons/")
+distutils.dir_util.copy_tree("./icons","./docs/icons/")

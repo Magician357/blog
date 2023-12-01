@@ -19,5 +19,5 @@ css="\n".join(css)
 
 print(css)
 
-with open("./actual-website/main.js","w") as f:
+with open("./docs/main.js","w") as f:
     f.write(css)
