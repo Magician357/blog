@@ -1,0 +1,55 @@
+#header {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title_box {
+    width:100%;
+    text-align: center; 
+}
+
+h1.title{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: clamp(10px,12vw,70px);
+}
+
+#navbar {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5vw;
+}
+
+.navbar_image {
+    width: min(10vw,65px);
+    height:auto;
+}
+
+#search_name {
+    width: max(100%,450px);
+    outline: 1px solid black;
+    display:flex;
+    justify-content: center;
+}
+
+#search_name form{
+    width: fit-content;
+    display:flex;
+    flex-direction: row;
+    column-gap: 3vw;
+}
+
+#search_name form input{
+    width: clamp(250px,50vw,375px);
+}
+
+#search_name form label {
+    font-size: 4vw; 
+    text-wrap: nowrap;
+}
